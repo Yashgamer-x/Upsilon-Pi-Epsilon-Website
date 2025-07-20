@@ -6,15 +6,21 @@ This repository contains the official multi-page website for the University of N
 [Coming Soon] – Deployed version via GitHub Pages or university-hosted server.
 
 ## 🗂️ Project Structure    
-# Home Page 
-├── index.html
-├── about/                  └── index.html 
-├── events/                 └── index.html 
-├── members/                └── index.html 
-├── contact/                └── index.html 
-├── membership/             └── index.html 
-└── assets/                 └── styles.css
-
+```text
+├── index.html # Home Page  
+├── about/      # About Page  
+    └── index.html  
+├── events/     # Events Page  
+    └── index.html  
+├── members/    # Members Page  
+    └── index.html  
+├── contact/    # Contact Page  
+    └── index.html  
+├── membership/ # Membership Requirement Page  
+    └── index.html  
+└── assets/     # Assets Folder  
+    └── styles.css  
+```
 
 ## 📄 Pages Included
 - **Home** – Welcome and overview
@@ -31,3 +37,4 @@ To run the site locally:
 ```bash
 git clone https://github.com/your-username/upe-unh-site.git
 cd upe-unh-site
+```
