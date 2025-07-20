@@ -6,6 +6,12 @@ html, body {
   flex-direction: column;
 }
 
+.heading{
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(235, 164, 13);
+}
+
 main {
   flex: 1; /* Fills remaining vertical space */
 }
@@ -37,9 +43,13 @@ header {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  max-width: 250px;
+  max-width: 350px;
   text-align: center;
+}
+
+.margin-20{
+  display: block;
+  margin: 0px 20px;
 }
 
 .member-card img {
@@ -49,9 +59,12 @@ header {
   margin-bottom: 15px;
 }
 
-.member-card h4 {
+
+.title-name{
   margin-bottom: 5px;
-  color: #002855;
+  padding: 1px;
+  background-color: #002855;
+  color: rgb(255, 180, 42);
 }
 
 .member-bio {
@@ -74,7 +87,7 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: whitesmoke;
 }
 
 section {
