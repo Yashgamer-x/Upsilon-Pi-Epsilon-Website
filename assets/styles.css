@@ -80,13 +80,20 @@ nav ul {
   gap: 20px;
 }
 
-nav a {
+.text-orange{
   color: orange;
+}
+
+.text-white{
+  color: whitesmoke;
+}
+
+.link {
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
+.link:hover {
   color: whitesmoke;
 }
 
